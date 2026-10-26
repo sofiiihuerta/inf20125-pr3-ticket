@@ -15,7 +15,7 @@ int main(void)
         return 1;
     }
 
-    porciones_disponibles = porciones_iniciales - porciones_preparadas - porciones_entregadas;
+    porciones_disponibles = porciones_iniciales + porciones_preparadas - porciones_entregadas;
 
     printf("Porciones disponibles: %d\n", porciones_disponibles);
     return 0;
